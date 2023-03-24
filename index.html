@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <!-- box-icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- custom-css  -->
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      // https://dashboard.emailjs.com/admin/account
+      emailjs.init('v2nUIE0AH0DOopand');
+    })();
+  </script>
+  </head>
+  <body>
+    <!-- header design -->
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#skills">skills</a>
+        <a href="#experiences">Experiences</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- home-section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Manibhushan Kumar</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+            I am Junior FrontEnd Developer able to build a Web presence from the ground up - from concept, navigation and layout. 
+        </p>
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="https://twitter.com/mn___28_" target="_blank"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+
+          <a href="https://www.linkedin.com/in/mani28" target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+        </div>
+        <a href="https://drive.google.com/file/d/15xzDykPf66765kkL47l868qEJBERbolo/view?usp=share_link"  target="_blank" class="btn">My Resume </a>
+      </div>
+      <div class="home-image">
+        <img src="images/pp.png" alt="" />
+      </div>
+    </section>
+
+    <!-- skills section design -->
+    <section class="skills" id="skills">
+      <h2 class="heading">My <span>Skills</span></h2>
+      <div class="skills-container">
+        <div class="skills-box">
+          <img src="images/skills/html.png" alt="" />
+          <!-- <i class='bx bxl-html5' ></i> -->
+          <h3>HTML</h3>
+        </div>
+
+        <div class="skills-box">
+          <!-- <i class='bx bx-code-alt' ></i>
+         -->
+          <img src="images/skills/css.png" alt="" />
+          <h3>CSS</h3>
+
+          <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+
+        <div class="skills-box">
+          <!-- <i class='bx bx-code-alt' ></i> -->
+          <img src="images/skills/js.png" alt="" />
+          <h3>Javascript</h3>
+        </div>
+
+        <div class="skills-box">
+          <img src="images/skills/react.png" alt="" />
+          <h3>React</h3>
+        </div>
+
+        <div class="skills-box">
+          <img src="images/skills/cpp.png" alt="" />
+          <h3>CPP</h3>
+        </div>
+
+        <div class="skills-box">
+          <img src="images/skills/mysql.png" alt="" />
+          <h3>MySQL</h3>
+        </div>
+
+        <div class="skills-box">
+          <img src="images/skills/flutter.png" alt="" />
+          <h3>flutter</h3>
+        </div>
+        <div class="skills-box">
+          <img src="images/skills/git.png" alt="" />
+          <h3>GIT</h3>
+        </div>
+        <div class="skills-box">
+          <img src="images/skills/photoshop.png" alt="" />
+          <h3>PhotoShop</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project section design -->
+    <section class="project" id="project">
+      <h2 class="heading">Latest <span>Project</span></h2>
+      <div class="project-container">
+        <div class="project-box">
+          <img src="images/pet1.jpg" alt="" />
+          <div class="project-layer">
+            <h4>Pet Adoption</h4>
+            <p>Pet-Adoption is a website which caters to almost all the needs of stray animals.</p>
+            <a href="https://react-app-3b399.web.app/" target="_blank">
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-box">
+          <img src="images/port5.jpg" alt="" />
+          <div class="project-layer">
+            <h4>Scholarship Portal</h4>
+            <p>A web portal for student where detailed information of National & International scholarships is available.</p>
+            <a href="https://github.com/manibhushan2811/Scholarship-Portal.git" target="_blank">
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-box">
+          <img src="images/port4.jpg" alt="" />
+          <div class="project-layer">
+            <h4>EVM</h4>
+            <p>It is an online voting portal.</p>
+            <a href="https://github.com/manibhushan2811/EVM.git" target="_blank">
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section design -->
+
+    <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me !</span></h2>
+    <form action="#" id="contact-form">
+      <div class="input-box">
+        <input type="text" name="name" placeholder="Full Name" />
+        <input type="email" name="email" placeholder="Email Address" />
+      </div>
+
+      <div class="input-box">
+        <input type="number" name="phone" placeholder="Mobile Number" />
+        <input type="text" name="emailsub" placeholder="Email Subject" />
+      </div>
+
+      <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send Message" class="btn" />
+    </form>
+  </section>
+
+    <!-- footer section design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Manibhushan | All Rights Reserved.</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"> <i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+
+    <script type="text/javascript">
+    window.onload = function() {
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            emailjs.sendForm('service_0t7yl1c', 'template_xcycrjf', this)
+                .then(function() {
+                    console.log('SUCCESS!');
+                }, function(error) {
+                    console.log('FAILED...', error);
+                });
+        });
+    }
+</script>
+  </body>
+</html>
